@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link id="theme-css" href="./light-theme.css" rel="stylesheet">
+  
+  <title>GitHub User Search App</title>
+</head>
+<body class="dark">
+
+  <div class="container">
+    <div class="heading">
+      <h1>devfinder</h1>
+      <button class="theme-btn">Dark<img src="./assets/icon-moon.svg"></button>
+    </div>
+  
+    <div class="search-bar dark">
+      <form>
+        <img src="./assets/icon-search.svg">
+        <input type="text" id="search-input" placeholder="Search Github username...">
+        <span id="search-error">No results</span>
+        <button id="search-btn">Search</button>
+      </form>
+    </div>
+    <div class="profile dark">
+      <div class="profile-img"><img id="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4"></div>
+
+      <div class="profile-user">
+        <div class="user-heading">
+          <div class="user-title">
+            <h1 id="name">The Octocat</h1>
+            <h3 id="username">@octocar</h3>
+          </div>
+          <p class="pv2" id="date">Joined 25 Jan 2021</p>
+        </div>
+
+        <div class="user-bio"><p id="bio" class="pv3">This profile has no bio</p></div>
+
+        <div class="user-stat">
+          <div class="stat1">
+            <h4>Repos</h4>
+            <h2 id="repos">8</h2>
+          </div>
+          <div class="stat1">
+            <h4>Followers</h4>
+            <h2 id="followers">3838</h2>
+          </div>
+          <div class="stat1">
+            <h4>Following</h4>
+            <h2 id="following">9</h2>
+          </div>
+        </div>
+
+        <div class="user-info">
+          <div class="info">
+            <img src="./assets/icon-location.svg">
+            <p class="pv2" id="location">San Francisco</p>
+          </div>
+          <div class="info">
+            <img src="./assets/icon-twitter.svg">
+            <p class="pv2" id="twitter">Not Avaliable</p>
+          </div>
+          <div class="info">
+            <img src="./assets/icon-website.svg">
+            <p class="pv2" id="website">https://github.blog</p>
+          </div>
+          <div class="info">
+            <img src="./assets/icon-company.svg">
+            <p class="pv2" id="company">@github</p>
+          </div>
+
+        </div>
+        
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
