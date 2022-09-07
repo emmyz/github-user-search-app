@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub User Search App](https://your-solution-url.com)
+- Solution URL: [GitHub User Search App](https://emmyz.github.io/github-user-search-app/)
 
 ### Built with
 
